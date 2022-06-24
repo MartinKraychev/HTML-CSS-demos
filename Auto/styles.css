@@ -31,7 +31,7 @@ p.info-p {
 main {
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 main .content {
