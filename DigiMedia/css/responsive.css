@@ -1,0 +1,101 @@
+@media screen and (max-width:600px) {
+
+    h1, h2, h4, h5, p {
+        text-align: center;
+    }
+    .container-fluid.hero img {
+        display: none;
+        position: absolute;
+    }
+
+    .container-fluid.hero {
+        position: relative;
+        top:-200px;
+        width: 90%;
+    }
+
+    nav.navbar {
+        justify-content:center;
+        padding-top: 20px;
+    }
+
+    article.container {
+        padding:0;
+    }
+
+    article.container h1 {
+        text-align: center;
+    }
+
+     article.container p {
+         text-align: center;
+         margin-bottom: 60px;
+     }
+
+     a {
+         display: block;
+         text-align: center;
+     }
+
+     div.container-fluid {
+         position: relative;
+         top:-250px;
+     }
+
+     div.row {
+         justify-content: center;
+         flex-direction: column;
+         align-items: center;
+     }
+
+     div.col-lg-4 {
+         max-width: 80%;
+         margin-bottom: 30px;
+
+     }
+
+     .services {
+         padding: 0;
+     }
+
+     div.col-lg-4 .service-box {
+         padding-bottom: 160px;
+     }
+
+     div.service-btn {
+         margin-bottom: 50px;
+     }
+
+     div.col-lg-6 h5 {
+         margin-top: 60px;
+     }
+
+     .hero-btns {
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         margin-bottom: 160px;
+     }
+
+     .hero-btns a {
+         width: 300px;
+     }
+
+     div.contact-btn {
+         display: none;
+         margin: 0;
+     }
+
+     ul.contact-nav a {
+         padding: 0 20px;
+     }
+
+
+     .navbar-light .navbar-brand {
+         margin: 0;
+     }
+
+     footer h6 {
+         padding-bottom: 10px;
+     }
+}
