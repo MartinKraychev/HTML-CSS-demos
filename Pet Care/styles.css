@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@200;600;900&display=swap');
+
+/*Common*/
+h1,
+h2,
+h3,
+h4 {
+    font-family: Poppins, serif;
+    font-weight: 600;
+}
+
+p, a, button, span {
+    font-family: "Open Sans", serif;
+}
+
+p, a, button, span {
+    font-weight: bold;
+    font-size: 14px;
+}
+ p{
+     color: #909092;
+ }
+
+h2 {
+    font-size: 70px;
+}
+
+h3 {
+    font-size: 42px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+.btn {
+    width: 170px;
+    height: 50px;
+    border-radius: 25px;
+    border:none;
+    font-size: 16px;
+}
+
+/*Header*/
+header {
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    align-items: center;
+}
+
+nav.navbar {
+    width: 400px;
+}
+
+nav.navbar ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav.navbar a {
+    color: #102955;
+}
+
+
+/*Company section*/
+
+section.company {
+    background-image: url("images/header-bg.png");
+    position: relative;
+    height: 888px;
+    width: 100vw;
+    margin-bottom: 200px;
+}
+
+div.company-info {
+    height: 50%;
+    position: absolute;
+    right: 55%;
+    top: 30%;
+}
+
+div.company-info p {
+    width: 60%;
+    color: white;
+}
+
+div.company-info .company-first-title {
+    font-weight: 200;
+    color: white;
+}
+
+div.company-info .company-second-title {
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+}
+
+div.company-info .company-description {
+    margin-bottom: 50px;
+}
+
+div.company-info .company-btn {
+    color: #EB3015;
+}
+
+section.company img {
+    height: 90%;
+    position: absolute;
+    left: 33%;
+    top: 21%;
+}
+
+/*Services section*/
+section.services {
+    margin: 0 300px;
+}
+section.services .services-title {
+    text-align: center;
+    font-weight: 900;
+}
+
+section.services .services-description {
+    /*width: 30%;*/
+    text-align: center;
+    color: #909092;
+    margin-bottom: 100px;
+}
+
+section.services .article-content {
+    display: flex;
+    gap: 30px;
+
+}
+
+section.services .article-card {
+    border: 1px solid #ED4018;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding: 20px;
+}
+
+section.services .article-card .pet-image {
+    height: 25%;
+    width: 25%;
+    position: absolute;
+    top:40%;
+    transform: translateY(-50%);
+}
+
+section.services .article-card .background-image {
+    height: 55%;
+    width: 45%;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+
+section.services .article-description {
+    width: 60%;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+/*About*/
+section.about {
+    margin-top:200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+section.about .about-info {
+    width: 35%;
+}
+
+section.about .about-first-title {
+    font-weight: 300;
+}
+
+section.about .about-second-title {
+    margin-bottom: 30px;
+}
+
+section.about .about-description {
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+section.about .about-btn {
+    color: white;
+    background-color: #F05018;
+}
+
+/*Contacts*/
+
+section.contacts {
+    background-image: url("images/cats-bg.png");
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    margin-bottom: 150px;
+}
+
+section.contacts .contacts-heading {
+    color:white;
+    margin-bottom: 20px;
+}
+
+section.contacts .contacts-description {
+    color:white;
+    font-size:20px;
+    width:50%;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+section.contacts .contacts-btn {
+    color: #E83B17;
+    margin-right: 20px;
+}
+
+section.contacts span {
+    color: white;
+}
+
+/*footer*/
+
+footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    padding: 0 120px;
+}
+
+footer h4,img {
+    padding-bottom: 30px;
+}
+
+footer p, li {
+   padding-bottom: 10px;
+}
+
+footer a {
+    color: #909092;
+}
+
+
+
