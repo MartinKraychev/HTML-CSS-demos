@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+    nav.tm-nav {
+        left: 10%;
+    }
+
+    main h2.tm-section-title {
+        margin: auto auto 20px;
+    }
+
+    div.tm-gallery {
+        margin-right: 80px;
+    }
+
+    div.tm-gallery-page {
+        margin:0 auto;
+        justify-content: center;
+    }
+
+    article.row {
+        flex-direction: column;
+    }
+}
