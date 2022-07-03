@@ -1,0 +1,240 @@
+/*Common*/
+:root {
+    --clr-logo-title: #2C383B;
+    --clr-nav-text: #323D40;
+    --clr-desc-text: #F5C6B7;
+    --clr-desc-titles: #F4DDDF;
+    --clr-info-text: #666664;
+    --clr-contact-title: #555555;
+    --clr-contact-text: #A2A2A2;
+    --clr-footer-text: #41A889;
+
+    --clr-nav-background: #ECECEC;
+    --clr-desc-background: #E24E2A;
+    --clr-info-background: #383838;
+    --clr-contact-btn: #1B9772;
+
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+/*header*/
+
+#header {
+    padding: 20px 50px 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+main, footer, header {
+    min-width: 1900px;
+    max-width: 2200px;
+    margin: 0 auto;
+}
+
+#header .logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 30%;
+}
+
+#header .logo-title {
+    font-size: 55px;
+}
+
+#header .logo-divider {
+    width: 1px;
+    height: 80px;
+    background-color: var(--clr-contact-text);
+
+}
+
+#header .logo-sponsor {
+    color: var(--clr-nav-text);
+    font-size: 24px;
+    padding-bottom: 15px;
+
+}
+
+#header nav {
+    width: 60%;
+}
+
+#header ul.nav-list {
+    display: flex;
+    width: 100%;
+    gap: 4px;
+}
+
+#header ul.nav-list li {
+    height: 90px;
+    background-color: var(--clr-nav-background);
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#header ul.nav-list li a {
+    color: var(--clr-nav-text);
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+#header ul.nav-list li a.home {
+    color: white;
+}
+
+#header ul.nav-list li:first-child {
+    background-color: var(--clr-desc-background);
+}
+
+/*photo*/
+
+#photo img {
+    width: 100%;
+    height: 650px;
+    object-fit: cover;
+}
+
+#photo .logo {
+    display: flex;
+    flex-direction: row;
+}
+
+/*Desc*/
+
+#desc {
+    background-color: var(--clr-desc-background);
+    color: var(--clr-desc-text);
+    height: 300px;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 210px;
+}
+
+#desc span.underline {
+    text-decoration: underline;
+    color: var(--clr-desc-titles)
+}
+
+/*info*/
+
+#info {
+    background-color: var(--clr-info-background);
+    height: 600px;
+    display: flex;
+    padding: 0;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.info-item div.icon  {
+    background-color: var(--clr-desc-background);
+    height:160px;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.info-item div.icon i {
+    font-size: 80px;
+    color: white;
+}
+
+.info-item .info-heading {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.info-item .info-p {
+    color: var(--clr-info-text);
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.info-item .info-divider {
+    width: 100%;
+    height: 1px;
+    background-color: var(--clr-info-text)
+}
+
+/*Contact*/
+#contact {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#contact .contact-title {
+    font-size: 42px;
+}
+
+#contact .contact-info {
+    font-size: 24px;
+    color : var(--clr-contact-text);
+    padding-bottom: 24px;
+}
+
+#contact .btn {
+    padding: 15px 55px;
+    font-size: 24px;
+    background-color: var(--clr-contact-btn);
+    color: white;
+    border: none;
+}
+
+#pre-footer {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--clr-info-background);
+}
+
+#footer {
+    height: 300px;
+    background-color: var(--clr-contact-btn);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p {
+    color: var(--clr-footer-text);
+    font-size: 28px;
+}
+
+#footer span {
+    color: #96D2BB;
+}
+
+
+
+
+
+
+
+
